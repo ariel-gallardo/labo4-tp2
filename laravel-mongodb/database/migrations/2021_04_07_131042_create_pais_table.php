@@ -14,13 +14,13 @@ class CreatePaisTable extends Migration
     public function up()
     {
         Schema::create('pais', function (Blueprint $table) {
-            $table->index('codigoPais');
-            $table->string('nombrePais',50);
-            $table->string('capitalPais',50);
-            $table->string('region',50);
-            $table->integer('poblacion');
-            $table->decimal('latitud');
-            $table->decimal('longitud');
+                $table->index('codigoPais');
+                $table->string('nombrePais',50);
+                $table->string('capitalPais',50);
+                $table->string('region',50);
+                $table->integer('poblacion');
+                $table->decimal('latitud');
+                $table->decimal('longitud');
         });
     }
 

@@ -27,7 +27,7 @@
 * php artisan migrate:fresh
 
 ### probar las siguientes rutas
-* POST - http://localhost:8000/api/pais/consumirAPI
-*  GET - http://localhost:8000/api/pais
+* POST - http://localhost:8000/api/pais/consumirAPI	- Consumir API de paises externa.
+*  GET - http://localhost:8000/api/pais			- Obtener JSON con los paises cargados.
 
 

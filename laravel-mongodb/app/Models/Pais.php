@@ -10,7 +10,7 @@ class Pais extends Eloquent
 {
     use HasFactory;
     protected $connection = 'mongodb';
-    protected $collection = 'paises';
+    protected $collection = 'pais';
 
     protected $fillable = [
         'codigoPais',
